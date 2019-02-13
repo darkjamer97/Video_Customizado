@@ -1,0 +1,215 @@
+* {
+    margin: auto;
+    padding: 1%;
+    font-family: cursive;
+}
+
+/*------------------------*/
+header,
+section,
+footer,
+aside,
+nav,
+article,
+figure,
+figcaption,
+hgroup {
+    display: block;
+}
+
+/*------------------------*/
+
+header {
+    background-color: #C4C443;
+    text-align: center;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+/*------------------------*/
+
+nav {
+    background-color: #F8D36F;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    text-align: center;
+}
+
+li {
+    display: inline;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+li a:hover {
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    color: white;
+    background-color: black;
+}
+
+/*------------------------*/
+
+section {
+    text-align: center;
+    background-color: #7D6E51;
+    width: 60%;
+    float: left;
+}
+
+/*------------------------*/
+
+h1 {
+    text-shadow: 2px 2px red;
+    -moz-text-shadow: 2px 2px red;
+    -webkit-text-shadow: 2px 2px red;
+}
+
+h2 {
+    color: #AECCDB;
+    text-shadow: 2px 4px #2F373B;
+    -moz-text-shadow: 2px 4px #2F373B;
+    -webkit-text-shadow: 2px 4px #2F373B;
+}
+
+h3 {
+    color: #2F373B;
+    text-shadow: 1px 1px #AECCDB;
+    -moz-text-shadow: 1px 1px #AECCDB;
+    -webkit-text-shadow: 1px 1px #AECCDB;
+}
+
+/*------------------------*/
+
+input {
+    width: 100%;
+    opacity: 0.5;
+    background: #d3d3d3;
+}
+
+input:hover {
+    opacity: 1;
+}
+
+/*------------------------*/
+
+button {
+    margin: 15px;
+}
+
+button:hover {
+    background-color: green;
+}
+
+/*------------------------*/
+
+video {
+    width: 400px;
+    height: 279px;
+    border-radius: 40px;
+    -moz-border-radius: 40px;
+    -webkit-border-radius: 40px;
+}
+
+/*------------------------*/
+
+#barra {
+    position: relative;
+    width: 400px;
+    height: 25px;
+    padding: 2px;
+    border: 1px solid #CCCCCC;
+    background: #EEEEEE;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+#progreso {
+    position: absolute;
+    width: 0px;
+    height: 18px;
+    background-color: green;
+}
+
+/*------------------------*/
+
+.a1 {
+    width: 36%;
+    height: 463px;
+    float: right;
+    text-align: center;
+    background-color: #586B51;
+}
+
+/*------------------------*/
+
+footer {
+    text-align: center;
+    background-color: #F8D36F;
+    text-shadow: 2px 2px #ff0000;
+    clear: both;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+footer:hover {
+    background: radial-gradient(top, circle, #586B51 0%, #030502 10%);
+    background: -webkit-radial-gradient(top, circle, #586B51 0%, #030502 10%);
+    background: -moz-radial-gradient(top, circle, #586B51 0%, #030502 10%);
+}
+
+
+/*------------------------*/
+
+.titulo {
+    width: 32%;
+    border-radius: 60px / 120px;
+    -moz-border-radius: 60px / 120px;
+    -webkit-border-radius: 60px / 120px;
+}
+
+.tituloReverse {
+    width: 32%;
+    background: #DDDDDD;
+    border-radius: 60px / 120px;
+    -moz-border-radius: 60px / 120px;
+    -webkit-border-radius: 60px / 120px;
+    box-shadow: 5px 5px 10px inset;
+    -moz-border-radius: 20px;
+    -moz-box-shadow: 5px 5px 10px inset;
+    -webkit-box-shadow: 5px 5px 10px inset;
+}
+
+/*------------------------*/
+
+.rojo {
+    background-color: red;
+}
+
+.verde {
+    background-color: green;
+}
+
+.azul {
+    background-color: blue;
+}
+
+/* FUENTES 
+
+@font-face {
+    font-family: 'header';
+    src: url('../fuentes/header.ttf');
+}*/
